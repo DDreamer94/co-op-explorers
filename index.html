@@ -89,12 +89,38 @@ body {
 	text-align: center;
 	z-index: 1;
 }
+
+#landscape-prompt {
+	position: fixed;
+	inset: 0;
+	z-index: 20;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 16px;
+	padding: 32px;
+	box-sizing: border-box;
+	background: #203a34;
+	color: #f6eed8;
+	font: 18px/1.5 system-ui, sans-serif;
+	text-align: center;
+}
+#landscape-prompt strong { font-size: 26px; line-height: 1.2; }
+@media (orientation: portrait) and (max-width: 900px) {
+	#landscape-prompt { display: flex; }
+}
 		</style>
 		<link id="-gd-engine-icon" rel="icon" type="image/png" href="index.icon.png" />
 <link rel="apple-touch-icon" href="index.apple-touch-icon.png"/>
 
 	</head>
 	<body>
+		<div id="landscape-prompt" role="status">
+			<strong>Turn your phone sideways</strong>
+			<span>Co-op Explorers uses landscape controls.</span>
+			<span>Drag on the left to move. Pinch open space to zoom.</span>
+		</div>
 		<canvas id="canvas">
 			Your browser does not support the canvas tag.
 		</canvas>
@@ -111,7 +137,7 @@ body {
 
 		<script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":308812,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":314944,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 

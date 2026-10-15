@@ -1,7 +1,8 @@
 {
+  "release": "mobile-controls-2026-10-15",
   "published_date": "2026-10-15",
   "godot": "4.7.2.stable.official.ed1daf0bf",
-  "source": "Existing local exports; no gameplay changes for publication",
+  "scope": "Mobile HUD, floating movement, spaced round actions and overview pinch zoom; puzzle layouts unchanged",
   "web": {
     ".nojekyll": {
       "bytes": 0,
@@ -12,8 +13,8 @@
       "sha256": "9ba46a6fa9333044076689d2f03e80e0b238a10a989572c18b708deb08b08677"
     },
     "README.md": {
-      "bytes": 2336,
-      "sha256": "09d5cb748715cdd8cf46b82c02051c0838dbab71a37ae575dbda01ebf27773f4"
+      "bytes": 3070,
+      "sha256": "f7401a1dbca95163e5e90953eace46bccb7441cd8532a0cc63b3707fe0ff6c2f"
     },
     "index.apple-touch-icon.png": {
       "bytes": 9634,
@@ -28,8 +29,8 @@
       "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
     },
     "index.html": {
-      "bytes": 5445,
-      "sha256": "15a4913b1ad714cc8ee9ecbc5d8d1846675c3b44c59be3524c00193defb69ab5"
+      "bytes": 6135,
+      "sha256": "b200b04cbd38714e78be094ffb8492e767c036677f6784d788d1e53c8db3556b"
     },
     "index.icon.png": {
       "bytes": 4213,
@@ -40,8 +41,8 @@
       "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
     },
     "index.pck": {
-      "bytes": 308812,
-      "sha256": "e74bd9af7a9c32193ec7afb2db585a532883c2487a773969db5b09b5a3aa3f7c"
+      "bytes": 314944,
+      "sha256": "48655ce65c94ffb7510691b273f865cdb8eda05f9bba8cd29b4a5f10943995b1"
     },
     "index.png": {
       "bytes": 21443,
@@ -54,8 +55,9 @@
   },
   "android": {
     "file": "co-op-explorers.apk",
-    "bytes": 28651179,
-    "sha256": "ca0ee5835512b9177eb988f700727872d1e979b6bd4c270380e912c59c8c8e89",
+    "url": "https://github.com/DDreamer94/co-op-explorers/releases/download/mobile-controls-2026-10-15/co-op-explorers.apk",
+    "bytes": 28659528,
+    "sha256": "92e9faca078a93cadb62eb488ffde029bdec23f40b6b0d25568851b1f02a10b3",
     "architecture": "arm64-v8a",
     "signing": "development"
   }

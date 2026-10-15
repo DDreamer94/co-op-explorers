@@ -3,13 +3,17 @@
 A playable Godot prototype for web browsers and Android.
 
 - [Play in your browser](https://ddreamer94.github.io/co-op-explorers/)
-- [Download the Android APK](https://github.com/DDreamer94/co-op-explorers/releases/download/prototype-2026-10-15/co-op-explorers.apk)
+- [Download the Android APK](https://github.com/DDreamer94/co-op-explorers/releases/download/mobile-controls-2026-10-15/co-op-explorers.apk)
 
 ## Play
 
 Choose **Solo + AI** and start to play immediately without a server. The prototype includes the Mountain Observatory encounter and 20 earlier traversal experiments. It currently uses a third-person camera; first-person play and the deeper puzzle redesign are pending.
 
-Desktop: use the controls shown in the game. Mobile: use the left joystick and right action buttons; landscape orientation is recommended.
+Mobile: play in landscape. Touch lower-left open space to place the floating joystick, then drag to walk/run. Use the spaced round buttons on the right for Jump, Interact/Load/Fire, Crouch, sling setup, Stack AI and Reset. Pinch open world space to zoom; moving/action fingers keep their own controls. The web client displays a rotation prompt in a narrow portrait window.
+
+The top-left panel now shows a compact personal task. Tap **i** for team/role details and help. Corrective feedback stays visible separately; a loaded passenger sees the automatic-release countdown. The quest minimap remains top-right.
+
+Desktop: WASD/arrows move, Shift runs, Space jumps, E interacts, F sets up/packs the sling, C crouches, T controls the AI tower, R returns to the start, Escape opens the menu.
 
 ## Multiplayer
 
@@ -23,7 +27,7 @@ This is an ARM64 APK signed with the development key, intended for direct protot
 
 ## Build provenance
 
-Published 2026-10-15 from the existing verified local exports. No gameplay code was changed for this publication. The checksums in `build-manifest.json` identify the hosted files and release APK.
+Updated 2026-10-15 with the mobile control and overview camera improvements. Map layouts, puzzle mechanics and AI planners are unchanged; the deeper cooperative puzzle redesign remains pending. The checksums in `build-manifest.json` identify the hosted files and release APK.
 
 This repository contains deployment files; the development project and private working evidence remain in the local project.
 
