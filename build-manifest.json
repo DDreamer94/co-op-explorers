@@ -1,68 +1,66 @@
 {
-  "release": "lobby-beta-2026-10-15",
-  "published_date": "2026-10-15",
-  "godot": "4.7.2.stable.official.ed1daf0bf",
-  "scope": "Explicit AI/Nearby/Online choices; multi-room public lobbies; native Android nearby hosting/discovery; responsive lobby controls. Puzzle mechanics and third-person camera unchanged.",
+  "version": "borrowed-bridge-2026-10-16",
+  "built_utc": "2026-10-15T17:48:05.766516+00:00",
+  "playable_puzzles": [
+    {
+      "id": 21,
+      "title": "Borrowed Bridge",
+      "party_sizes": [
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "source_fingerprint": "1e7e82855a15bc3b6c19fe3f526dd449db2e7f22c7e1bb0abfad121fef0375c8",
   "web": {
-    ".nojekyll": {
-      "bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    "GODOT_NOTICES.txt": {
-      "bytes": 99940,
-      "sha256": "9ba46a6fa9333044076689d2f03e80e0b238a10a989572c18b708deb08b08677"
-    },
-    "README.md": {
-      "bytes": 3118,
-      "sha256": "8c34c09675f540ef68a2ff5ef5b8a03cc0eccb9d74aabefc4130532f6a4333d4"
-    },
-    "index.apple-touch-icon.png": {
+    "borrowed-bridge.apple-touch-icon.png": {
       "bytes": 9634,
       "sha256": "4575fd3ef07a1b225010ad5fb31bddba0ae9e4b8ce13edd50fb48004694dd3e8"
     },
-    "index.audio.position.worklet.js": {
+    "borrowed-bridge.audio.position.worklet.js": {
       "bytes": 2973,
       "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
     },
-    "index.audio.worklet.js": {
+    "borrowed-bridge.audio.worklet.js": {
       "bytes": 7298,
       "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
     },
-    "index.html": {
-      "bytes": 6135,
-      "sha256": "b012c45f9531b62e63c55cc46c909822a29c592b0eae9794007eb437810d7bb8"
-    },
-    "index.icon.png": {
+    "borrowed-bridge.icon.png": {
       "bytes": 4213,
       "sha256": "9cc70383c43e0608b22e0dfc12f77bd9cbbd971ac7ceba13e70546f47c5a508f"
     },
-    "index.js": {
+    "borrowed-bridge.js": {
       "bytes": 279815,
       "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
     },
-    "index.pck": {
-      "bytes": 343996,
-      "sha256": "7183ca577f31d76cd7b32f919fcb085a8ffdcfd13142906cbbb5edf6d892dd9a"
+    "borrowed-bridge.pck": {
+      "bytes": 359964,
+      "sha256": "7de0037f113c87ab6137dcbcb3795293dec225392957181d6694ba1c90f3b97e"
     },
-    "index.png": {
+    "borrowed-bridge.png": {
       "bytes": 21443,
       "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
     },
-    "index.wasm": {
+    "borrowed-bridge.wasm": {
       "bytes": 39514754,
       "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
     },
-    "server.json": {
-      "bytes": 91,
-      "sha256": "b8e09d3ccc8ebe5405a77e6aa91f0c6ceb9fe32fdd36354818dc57a394e9f92a"
+    "index.html": {
+      "bytes": 6205,
+      "sha256": "24f9f9202796aaafd808afed7798f722bcb23fd73a7403f58babb5c245dbde70"
     }
   },
-  "android": {
-    "file": "co-op-explorers.apk",
-    "url": "https://github.com/DDreamer94/co-op-explorers/releases/download/lobby-beta-2026-10-15/co-op-explorers.apk",
-    "bytes": 28688999,
-    "sha256": "d0711a019afc36bcc4f71c925e612cd4f3fe95bb0219a1015f7e4ab402486bb5",
-    "architecture": "arm64-v8a",
-    "signing": "development"
-  }
+  "apk": {
+    "filename": "co-op-explorers.apk",
+    "bytes": 28705699,
+    "sha256": "481f5ff7e5818041b9cd841ade1936b8786fe075473ff91fe35febfc1ef686cd",
+    "download": "https://github.com/DDreamer94/co-op-explorers/releases/download/borrowed-bridge-2026-10-16/co-op-explorers.apk"
+  },
+  "scope": "One puzzle prototype; earlier selectable encounters removed. Overview camera retained for this puzzle-focused slice.",
+  "verification_limits": [
+    "Automated physical and multiplayer completion; first-time human puzzle verdict pending.",
+    "Android emulator install/start; physical-phone LAN and input remain unverified.",
+    "Public multiplayer uses a temporary tunnel while the host Mac stays online."
+  ]
 }
