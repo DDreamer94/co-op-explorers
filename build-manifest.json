@@ -1,8 +1,8 @@
 {
-  "release": "mobile-controls-2026-10-15",
+  "release": "lobby-beta-2026-10-15",
   "published_date": "2026-10-15",
   "godot": "4.7.2.stable.official.ed1daf0bf",
-  "scope": "Mobile HUD, floating movement, spaced round actions and overview pinch zoom; puzzle layouts unchanged",
+  "scope": "Explicit AI/Nearby/Online choices; multi-room public lobbies; native Android nearby hosting/discovery; responsive lobby controls. Puzzle mechanics and third-person camera unchanged.",
   "web": {
     ".nojekyll": {
       "bytes": 0,
@@ -13,8 +13,8 @@
       "sha256": "9ba46a6fa9333044076689d2f03e80e0b238a10a989572c18b708deb08b08677"
     },
     "README.md": {
-      "bytes": 3070,
-      "sha256": "f7401a1dbca95163e5e90953eace46bccb7441cd8532a0cc63b3707fe0ff6c2f"
+      "bytes": 3118,
+      "sha256": "8c34c09675f540ef68a2ff5ef5b8a03cc0eccb9d74aabefc4130532f6a4333d4"
     },
     "index.apple-touch-icon.png": {
       "bytes": 9634,
@@ -30,7 +30,7 @@
     },
     "index.html": {
       "bytes": 6135,
-      "sha256": "b200b04cbd38714e78be094ffb8492e767c036677f6784d788d1e53c8db3556b"
+      "sha256": "b012c45f9531b62e63c55cc46c909822a29c592b0eae9794007eb437810d7bb8"
     },
     "index.icon.png": {
       "bytes": 4213,
@@ -41,8 +41,8 @@
       "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
     },
     "index.pck": {
-      "bytes": 314944,
-      "sha256": "48655ce65c94ffb7510691b273f865cdb8eda05f9bba8cd29b4a5f10943995b1"
+      "bytes": 343996,
+      "sha256": "7183ca577f31d76cd7b32f919fcb085a8ffdcfd13142906cbbb5edf6d892dd9a"
     },
     "index.png": {
       "bytes": 21443,
@@ -51,13 +51,17 @@
     "index.wasm": {
       "bytes": 39514754,
       "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
+    },
+    "server.json": {
+      "bytes": 91,
+      "sha256": "b8e09d3ccc8ebe5405a77e6aa91f0c6ceb9fe32fdd36354818dc57a394e9f92a"
     }
   },
   "android": {
     "file": "co-op-explorers.apk",
-    "url": "https://github.com/DDreamer94/co-op-explorers/releases/download/mobile-controls-2026-10-15/co-op-explorers.apk",
-    "bytes": 28659528,
-    "sha256": "92e9faca078a93cadb62eb488ffde029bdec23f40b6b0d25568851b1f02a10b3",
+    "url": "https://github.com/DDreamer94/co-op-explorers/releases/download/lobby-beta-2026-10-15/co-op-explorers.apk",
+    "bytes": 28688999,
+    "sha256": "d0711a019afc36bcc4f71c925e612cd4f3fe95bb0219a1015f7e4ab402486bb5",
     "architecture": "arm64-v8a",
     "signing": "development"
   }
