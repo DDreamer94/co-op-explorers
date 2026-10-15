@@ -1,0 +1,62 @@
+{
+  "published_date": "2026-10-15",
+  "godot": "4.7.2.stable.official.ed1daf0bf",
+  "source": "Existing local exports; no gameplay changes for publication",
+  "web": {
+    ".nojekyll": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "GODOT_NOTICES.txt": {
+      "bytes": 99940,
+      "sha256": "9ba46a6fa9333044076689d2f03e80e0b238a10a989572c18b708deb08b08677"
+    },
+    "README.md": {
+      "bytes": 2336,
+      "sha256": "09d5cb748715cdd8cf46b82c02051c0838dbab71a37ae575dbda01ebf27773f4"
+    },
+    "index.apple-touch-icon.png": {
+      "bytes": 9634,
+      "sha256": "4575fd3ef07a1b225010ad5fb31bddba0ae9e4b8ce13edd50fb48004694dd3e8"
+    },
+    "index.audio.position.worklet.js": {
+      "bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+    },
+    "index.audio.worklet.js": {
+      "bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+    },
+    "index.html": {
+      "bytes": 5445,
+      "sha256": "15a4913b1ad714cc8ee9ecbc5d8d1846675c3b44c59be3524c00193defb69ab5"
+    },
+    "index.icon.png": {
+      "bytes": 4213,
+      "sha256": "9cc70383c43e0608b22e0dfc12f77bd9cbbd971ac7ceba13e70546f47c5a508f"
+    },
+    "index.js": {
+      "bytes": 279815,
+      "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
+    },
+    "index.pck": {
+      "bytes": 308812,
+      "sha256": "e74bd9af7a9c32193ec7afb2db585a532883c2487a773969db5b09b5a3aa3f7c"
+    },
+    "index.png": {
+      "bytes": 21443,
+      "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+    },
+    "index.wasm": {
+      "bytes": 39514754,
+      "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
+    }
+  },
+  "android": {
+    "file": "co-op-explorers.apk",
+    "bytes": 28651179,
+    "sha256": "ca0ee5835512b9177eb988f700727872d1e979b6bd4c270380e912c59c8c8e89",
+    "architecture": "arm64-v8a",
+    "signing": "development"
+  }
+}
