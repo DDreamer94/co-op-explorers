@@ -1,6 +1,6 @@
 {
-  "version": "desktop-key-hints-2026-10-16",
-  "built_utc": "2026-10-16T06:42:59.647528+00:00",
+  "version": "readable-workshop-2026-10-16",
+  "built_utc": "2026-10-16T10:52:28.903072+00:00",
   "playable_puzzles": [
     {
       "id": 22,
@@ -12,132 +12,122 @@
       ]
     }
   ],
-  "source_fingerprint": "58ef9f9521817d4847d0912d44a71a5a72f72629e66eb4b3f528cba2a3b17e7d",
+  "source_fingerprint": "b1ba378b8352de991cb3b62b797c661d251f12eb5a8ac6835a6b36c6757adb60",
   "web": {
-    "desktop-key-hints.apple-touch-icon.png": {
+    "readable-workshop.apple-touch-icon.png": {
       "bytes": 9634,
       "sha256": "4575fd3ef07a1b225010ad5fb31bddba0ae9e4b8ce13edd50fb48004694dd3e8"
     },
-    "desktop-key-hints.audio.position.worklet.js": {
+    "readable-workshop.audio.position.worklet.js": {
       "bytes": 2973,
       "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
     },
-    "desktop-key-hints.audio.worklet.js": {
+    "readable-workshop.audio.worklet.js": {
       "bytes": 7298,
       "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
     },
     "index.html": {
       "bytes": 6230,
-      "sha256": "0abc22b047507fc7bd0146ab4874fbdb0e7c8b55e77c08382cc31778ed2236ea"
+      "sha256": "687b41f15d8bfc3aa13725230ef039112fa11f5f89c1c02dbc42042ef7815cbd"
     },
-    "desktop-key-hints.icon.png": {
+    "readable-workshop.icon.png": {
       "bytes": 4213,
       "sha256": "9cc70383c43e0608b22e0dfc12f77bd9cbbd971ac7ceba13e70546f47c5a508f"
     },
-    "desktop-key-hints.js": {
-      "bytes": 279815,
-      "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
+    "readable-workshop.js": {
+      "bytes": 315645,
+      "sha256": "ffc3898b59fba6f5af0c02f76e5ee526cc061e65c7d2d6f4f98186876cea15c4"
     },
-    "desktop-key-hints.pck": {
-      "bytes": 407628,
-      "sha256": "3a4c7ad5c875f28059eb36de67e59112665e222b8aa63f55d840d74a3eeb8597"
+    "readable-workshop.pck": {
+      "bytes": 425436,
+      "sha256": "32cb4071773cf69e60446fddcf3a089cfc78c0147e4fccb1e41719b511716e5c"
     },
-    "desktop-key-hints.png": {
+    "readable-workshop.png": {
       "bytes": 21443,
       "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
     },
-    "desktop-key-hints.wasm": {
-      "bytes": 39514754,
-      "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
+    "readable-workshop.wasm": {
+      "bytes": 37902138,
+      "sha256": "11ea19645368f8e73cf337b59cfd7ceeb4ebb51f7a3bbf77d1a5c3ddfedbc522"
     }
+  },
+  "gateway_pack": {
+    "sha256": "32cb4071773cf69e60446fddcf3a089cfc78c0147e4fccb1e41719b511716e5c"
   },
   "apk": {
     "filename": "co-op-explorers.apk",
-    "bytes": 28755425,
-    "sha256": "6d0a910a574e967d226f173a5e109f635feae1b9631c81b17b784200dec78d98",
-    "version_code": 26101604,
-    "version_name": "0.3.0-first-person",
-    "download": "https://github.com/DDreamer94/co-op-explorers/releases/download/first-person-2026-10-16/co-op-explorers.apk"
+    "bytes": 28776507,
+    "sha256": "181268a04effaf0d0d5c49e2862206bd3f21a2fd10722dfc511525e4778067c6",
+    "version_code": 26101605,
+    "version_name": "0.3.1-readable-workshop",
+    "download": "https://github.com/DDreamer94/co-op-explorers/releases/download/readable-workshop-2026-10-16/co-op-explorers.apk"
   },
   "changes": [
-    "Desktop action captions include keyboard keys: (C)rouch, (R)ecover, (Bar) Jump, (E) Interact/Load/Fire, (F) portable sling and (T) AI stacking.",
-    "Changing action states retain their keys; desktop Information and Menu show (I) and (Esc). Touch captions retain action names."
+    "Persistent plain-language task/instruction and one active numbered target pattern.",
+    "Physical symbol handwheels, consistent glyphs, links, chart, core socket and two-picture lever with selected-state ring.",
+    "Camera-local slight rim glow on relevant quest objects under the crosshair, within8m and line of sight; clears on looking away/reading/menu.",
+    "First person, hidden floating names, keyboard captions, mobile controls and cooperative puzzle rules retained."
   ],
-  "verification_limits": [
-    "Native event and staged rendered checks do not measure first-time puzzle enjoyment, comfort or the30\u201345-minute target.",
-    "Native capture passed; embedded/browser automation encountered focus/pointer-lock rejection. Exported Chrome world-drag fallback visibly works; ordinary desktop capture stability remains unverified.",
-    "Android is development-signed; emulator evidence does not establish physical-phone performance or hardware LAN.",
-    "Independent consumer scope has retained P2 wording/gear readability/art polish; UX first pass EVIDENCE_INCOMPLETE; targeted static P1 findings addressed.",
-    "Public multiplayer still depends on this Mac and its temporary tunnel."
-  ],
-  "retained_first_person_verification": {
-    "camera": {
-      "checks": 14,
-      "failures": 0
-    },
-    "touch": {
-      "checks": 11,
-      "failures": 0
-    },
-    "owned_look_launch": {
-      "checks": 12,
-      "failures": 0
-    },
-    "packed_workshop": {
-      "checks": 133,
-      "failures": 0
-    },
-    "mixed_party_chapter": {
-      "checks": 18,
-      "failures": 0
-    },
-    "retained_coop": {
-      "checks": 354,
-      "failures": 0
-    },
-    "retained_gateway": {
-      "checks": 32,
-      "failures": 0
-    },
-    "retained_overview_gestures": {
-      "checks": 16,
-      "failures": 0
-    },
-    "native_mouse": {
-      "checks": 17,
-      "failures": 0
-    },
-    "public_wss_look": {
-      "checks": 13,
-      "failures": 0
-    }
-  },
   "verification": {
-    "desktop_rendered_viewports": [
-      [
-        1280,
-        720
-      ],
-      [
-        1024,
-        768
-      ]
-    ],
-    "touch_rendered_viewports": [
-      [
-        852,
-        393
-      ]
-    ],
-    "states": "Staged default/alternate button states plus actual ready/load/fire render fixtures; controller visual recheck, no new independent consumer verdict.",
-    "native_mouse_smoke": {
+    "delivery_pack_readability": {
+      "checks": 18,
+      "failures": 0,
+      "log": "readability-delivery.log"
+    },
+    "delivery_pack_focus": {
+      "checks": 8,
+      "failures": 0,
+      "log": "focus-delivery.log"
+    },
+    "delivery_pack_physical_puzzle": {
+      "checks": 133,
+      "failures": 0,
+      "log": "world-delivery.log"
+    },
+    "delivery_pack_mouse": {
       "checks": 17,
-      "failures": 0
-    }
+      "failures": 0,
+      "log": "mouse-delivery.log"
+    },
+    "delivery_pack_owned_network_look_launch": {
+      "checks": 12,
+      "failures": 0,
+      "log": "view-network-delivery.log"
+    },
+    "public_tls_lobby_ownership_look": {
+      "checks": 13,
+      "failures": 0,
+      "log": "public-gateway.log"
+    },
+    "touch_source": {
+      "checks": 11,
+      "failures": 0,
+      "log": "touch.log"
+    },
+    "mixed_party_complete_chapter_source_before_final_visual_polish": {
+      "checks": 18,
+      "failures": 0,
+      "log": "chapter-network.log"
+    },
+    "normal_bots_and_idle_role_ablations_source_before_final_visual_polish": {
+      "failures": 0,
+      "log": "ai.log"
+    },
+    "rendered_matrix": [
+      "recheck-desktop-final",
+      "recheck-phone-v3",
+      "recheck-tablet"
+    ],
+    "reviews": "reviews/reconciliation.json",
+    "android": "Installed APK matches export; signature/alignment checked; actual native chapter start inspected. Development-signed ARM64.",
+    "browser": "Actual private exported Web menu/start inspected; ordinary foreground pointer-lock stability remains a retained limit."
   },
-  "compatibility": {
-    "scope": "Web desktop caption update only; physics, input bindings, RPC and room protocol unchanged.",
-    "server_build": "first-person-2026-10-16",
-    "android_build": "first-person-2026-10-16; touch labels unchanged, existing APK retained."
-  }
+  "verification_limits": [
+    "UX independent interaction review EVIDENCE_INCOMPLETE: native app selection/Accessibility tools blocked before input. Zero reproduced independent interactions.",
+    "Controller input/material/network tests supplement this gap; no global UX or first-time human difficulty approval.",
+    "Static/staged captures are not full human playthroughs; isolated traversal is movement-input evidence only.",
+    "Physical-phone input/performance and hardware LAN remain unverified.",
+    "No first-time human completion time or30\u201345-minute duration claim.",
+    "Public multiplayer still depends on this Mac and its temporary tunnel."
+  ]
 }

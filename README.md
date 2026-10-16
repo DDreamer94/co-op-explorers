@@ -1,6 +1,6 @@
 # Co-op Explorers — Mountain Workshop
 
-[Play the single-chapter web prototype](https://ddreamer94.github.io/co-op-explorers/?v=desktop-key-hints-2026-10-16) · [Android ARM64 APK](https://github.com/DDreamer94/co-op-explorers/releases/download/first-person-2026-10-16/co-op-explorers.apk)
+[Play the single-chapter web prototype](https://ddreamer94.github.io/co-op-explorers/?v=desktop-key-hints-2026-10-16) · [Android ARM64 APK](https://github.com/DDreamer94/co-op-explorers/releases/download/readable-workshop-2026-10-16/co-op-explorers.apk)
 
 Mountain Workshop is the only selectable chapter. Explore a courtyard, machinery hall, high archive, freight tower and upper vault as a 2–4-character crew. A shared brass core provides power and ballast. Reassign roles across linked forward/reverse gears, a supported freight lift, a staffed cargo hoist and a two-gate counterbalance airlock. Recover the core and bring the entire crew into the vault. There is no river or long bridge in this chapter.
 
@@ -11,3 +11,6 @@ The chapter uses first person, including crouching, shoulder towers and projecti
 The first-time playtest target is 30–45 minutes; actual human duration, puzzle enjoyment and physical-phone testing remain unverified. Known-solution bots execute the route in about 131 seconds. Automated checks cover physical failures, indispensable participation and a full two-human-owned-client/two-bot input-RPC journey. The first-person camera/input and actual public WSS look replication were checked. Native capture passes; automated Chrome rejected pointer lock despite a focused document. The exported Chrome world-drag fallback was exercised; normal foreground desktop capture stability remains unverified. Some later HUD messages still cover part of the supporting crew.
 
 Public multiplayer depends on the temporary beta tunnel and the host Mac remaining online. Android is development-signed. Build checksums and exact scope are in [build-manifest.json](build-manifest.json). This repository contains exported assets, not development source or private runtime state. Godot notices are retained in GODOT_NOTICES.txt.
+
+
+Current beta: readable workshop update,16 October2026. Persistent current task and one numbered target, physical symbol wheels and two-picture mode lever, and slight gaze focus on relevant quest objects. Android0.3.1 (ARM64 development-signed). See build-manifest.json for hashes and scoped verification limits.
