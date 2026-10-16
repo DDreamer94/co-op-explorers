@@ -1,6 +1,6 @@
 {
-  "version": "workshop-controls-2026-10-16",
-  "built_utc": "2026-10-16T01:56:53.362974+00:00",
+  "version": "first-person-2026-10-16",
+  "built_utc": "2026-10-16T06:21:57.969623+00:00",
   "playable_puzzles": [
     {
       "id": 22,
@@ -12,89 +12,106 @@
       ]
     }
   ],
-  "source_fingerprint": "b8da6b9e3b589fbc78af9d8f1d31c280bb9c478fe9539fe2406ae3e38a1f3d3f",
+  "source_fingerprint": "16972b55b5013e860e70cd0c9a1633b12848f2367638f00170e87a4552049f61",
   "web": {
-    "workshop-controls.apple-touch-icon.png": {
+    "first-person.apple-touch-icon.png": {
       "bytes": 9634,
       "sha256": "4575fd3ef07a1b225010ad5fb31bddba0ae9e4b8ce13edd50fb48004694dd3e8"
     },
-    "workshop-controls.audio.position.worklet.js": {
+    "first-person.audio.position.worklet.js": {
       "bytes": 2973,
       "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
     },
-    "workshop-controls.audio.worklet.js": {
+    "first-person.audio.worklet.js": {
       "bytes": 7298,
       "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
     },
     "index.html": {
-      "bytes": 6219,
-      "sha256": "7a9448112802fa798db519040f2eeccdeaee3aeba95a102b9df8e769368a3c4d"
+      "bytes": 6195,
+      "sha256": "98cb7e413bf201379930035a9ae78b13114191683273add814bb16bf47a72056"
     },
-    "workshop-controls.icon.png": {
+    "first-person.icon.png": {
       "bytes": 4213,
       "sha256": "9cc70383c43e0608b22e0dfc12f77bd9cbbd971ac7ceba13e70546f47c5a508f"
     },
-    "workshop-controls.js": {
+    "first-person.js": {
       "bytes": 279815,
       "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
     },
-    "workshop-controls.pck": {
-      "bytes": 398312,
-      "sha256": "a9acaf584f3fa75c2c6a6a8db31d4f63c2eb0827428ff261dc1ca94b3fa9c120"
+    "first-person.pck": {
+      "bytes": 406716,
+      "sha256": "930dc13fa84797c7c042ba31577af29e847437b16a239b1645204b777ecb20fb"
     },
-    "workshop-controls.png": {
+    "first-person.png": {
       "bytes": 21443,
       "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
     },
-    "workshop-controls.wasm": {
+    "first-person.wasm": {
       "bytes": 39514754,
       "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
     }
   },
   "apk": {
     "filename": "co-op-explorers.apk",
-    "bytes": 28747096,
-    "sha256": "8571e7771046347d8d661d8f25c78b26806076245a6f8fd1e5047742e12001c3",
-    "version_code": 26101603,
-    "version_name": "0.2.1-controls",
-    "download": "https://github.com/DDreamer94/co-op-explorers/releases/download/workshop-controls-2026-10-16/co-op-explorers.apk"
+    "bytes": 28755425,
+    "sha256": "6d0a910a574e967d226f173a5e109f635feae1b9631c81b17b784200dec78d98",
+    "version_code": 26101604,
+    "version_name": "0.3.0-first-person",
+    "download": "https://github.com/DDreamer94/co-op-explorers/releases/download/first-person-2026-10-16/co-op-explorers.apk"
   },
   "changes": [
-    "Hide floating object text and overhead explorer names; compact title shows level only.",
-    "Current gear symbols and target rows remain available in Information, with current-stage content fitting the phone gear view.",
-    "Invert horizontal portable-sling aiming for keyboard, touch and validated network input. Vertical power and ballistic physics unchanged."
+    "First-person eye-level camera on Web/Android, including crouch, shoulder towers, jumps and flight.",
+    "Independent left movement/right look touch; FOV pinch/wheel and desktop mouse look with world-drag fallback.",
+    "Look sets portable launcher heading/elevation before loading and preserves power; separate player ownership and ten-second lock retained.",
+    "World labels and overhead names stay hidden; minimap facing arrow, clearer small-screen markers and short action labels."
   ],
   "verification_limits": [
-    "Directional checks cover the normal workshop firing heading and screen-space preview/projectile; no new camera system.",
-    "Targeted UI/layout still-image rechecks are not a first-time human playthrough. Remaining P2 cargo toast/crew occlusion and archive-toast truncation are deferred; clues are available in Information.",
-    "The expanded chapter and 30–45-minute target are unchanged; first-time human duration remains unmeasured.",
-    "Android is development-signed; emulator checks are not physical-phone performance or LAN validation.",
-    "Public multiplayer depends on this Mac and the existing temporary tunnel."
+    "Native event and staged rendered checks do not measure first-time puzzle enjoyment, comfort or the30\u201345-minute target.",
+    "Native capture passed; embedded/browser automation encountered focus/pointer-lock rejection. Exported Chrome world-drag fallback visibly works; ordinary desktop capture stability remains unverified.",
+    "Android is development-signed; emulator evidence does not establish physical-phone performance or hardware LAN.",
+    "Independent consumer scope has retained P2 wording/gear readability/art polish; UX first pass EVIDENCE_INCOMPLETE; targeted static P1 findings addressed.",
+    "Public multiplayer still depends on this Mac and its temporary tunnel."
   ],
   "verification": {
-    "packed_direction": {
-      "checks": 9,
-      "failures": 0,
-      "method": "Actual floating touch input and physical key events move screen-space preview; actual fired teammate direction checked at normal workshop heading."
+    "camera": {
+      "checks": 14,
+      "failures": 0
     },
-    "packed_network_lifecycle": {
-      "checks": 49,
-      "failures": 0,
-      "method": "Validated owner RPCs, aim snapshot on another device, passenger lock and real launch."
+    "touch": {
+      "checks": 11,
+      "failures": 0
     },
-    "packed_world": {
+    "owned_look_launch": {
+      "checks": 12,
+      "failures": 0
+    },
+    "packed_workshop": {
       "checks": 133,
-      "failures": 0,
-      "method": "Staged 2/3/4 physical dependency and recovery fixtures."
+      "failures": 0
     },
-    "retained_unchanged_physics": {
+    "mixed_party_chapter": {
+      "checks": 18,
+      "failures": 0
+    },
+    "retained_coop": {
       "checks": 354,
       "failures": 0
     },
-    "retained_touch_gestures": {
+    "retained_gateway": {
+      "checks": 32,
+      "failures": 0
+    },
+    "retained_overview_gestures": {
       "checks": 16,
       "failures": 0
     },
-    "consumer": "UI/layout targeted source-unseen static rechecks and phone gear-panel fit supplements; no material P0/P1 in bounded images."
+    "native_mouse": {
+      "checks": 17,
+      "failures": 0
+    },
+    "public_wss_look": {
+      "checks": 13,
+      "failures": 0
+    }
   }
 }
