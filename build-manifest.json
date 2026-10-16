@@ -1,6 +1,6 @@
 {
-  "version": "mountain-workshop-2026-10-16",
-  "built_utc": "2026-10-16T01:21:31.161416+00:00",
+  "version": "workshop-controls-2026-10-16",
+  "built_utc": "2026-10-16T01:56:53.362974+00:00",
   "playable_puzzles": [
     {
       "id": 22,
@@ -12,41 +12,41 @@
       ]
     }
   ],
-  "source_fingerprint": "5d18f92ecdee3cfc44a8c0c936dcb8f1f7be09a728bf65978b40ddb136cac4cd",
+  "source_fingerprint": "b8da6b9e3b589fbc78af9d8f1d31c280bb9c478fe9539fe2406ae3e38a1f3d3f",
   "web": {
-    "mountain-workshop.apple-touch-icon.png": {
+    "workshop-controls.apple-touch-icon.png": {
       "bytes": 9634,
       "sha256": "4575fd3ef07a1b225010ad5fb31bddba0ae9e4b8ce13edd50fb48004694dd3e8"
     },
-    "mountain-workshop.audio.position.worklet.js": {
+    "workshop-controls.audio.position.worklet.js": {
       "bytes": 2973,
       "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
     },
-    "mountain-workshop.audio.worklet.js": {
+    "workshop-controls.audio.worklet.js": {
       "bytes": 7298,
       "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
     },
     "index.html": {
       "bytes": 6219,
-      "sha256": "a3e57b26d2893f95748e2726f8b9a83074b68bab33199dc248bc3335dddf51ae"
+      "sha256": "7a9448112802fa798db519040f2eeccdeaee3aeba95a102b9df8e769368a3c4d"
     },
-    "mountain-workshop.icon.png": {
+    "workshop-controls.icon.png": {
       "bytes": 4213,
       "sha256": "9cc70383c43e0608b22e0dfc12f77bd9cbbd971ac7ceba13e70546f47c5a508f"
     },
-    "mountain-workshop.js": {
+    "workshop-controls.js": {
       "bytes": 279815,
       "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
     },
-    "mountain-workshop.pck": {
-      "bytes": 399064,
-      "sha256": "fda57108a520286f21a7089fb6aaf6fc089effd564106d772ced4cc9a6e38906"
+    "workshop-controls.pck": {
+      "bytes": 398312,
+      "sha256": "a9acaf584f3fa75c2c6a6a8db31d4f63c2eb0827428ff261dc1ca94b3fa9c120"
     },
-    "mountain-workshop.png": {
+    "workshop-controls.png": {
       "bytes": 21443,
       "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
     },
-    "mountain-workshop.wasm": {
+    "workshop-controls.wasm": {
       "bytes": 39514754,
       "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
     }
@@ -54,29 +54,47 @@
   "apk": {
     "filename": "co-op-explorers.apk",
     "bytes": 28747096,
-    "sha256": "37469757a28f80b82d7493b81e464d3bd62fceaa71c4375735fc42b55bc01f6e",
-    "version_code": 26101602,
-    "version_name": "0.2.0-workshop",
-    "download": "https://github.com/DDreamer94/co-op-explorers/releases/download/mountain-workshop-2026-10-16/co-op-explorers.apk"
+    "sha256": "8571e7771046347d8d661d8f25c78b26806076245a6f8fd1e5047742e12001c3",
+    "version_code": 26101603,
+    "version_name": "0.2.1-controls",
+    "download": "https://github.com/DDreamer94/co-op-explorers/releases/download/workshop-controls-2026-10-16/co-op-explorers.apk"
   },
-  "scope": "One connected mountain workshop chapter: shared ballast, crew latch, high archive, linked forward/reverse gears, freight pilot and pumps, cargo hoist and two-gate counterbalance vault. Overview camera remains.",
+  "changes": [
+    "Hide floating object text and overhead explorer names; compact title shows level only.",
+    "Current gear symbols and target rows remain available in Information, with current-stage content fitting the phone gear view.",
+    "Invert horizontal portable-sling aiming for keyboard, touch and validated network input. Vertical power and ballistic physics unchanged."
+  ],
+  "verification_limits": [
+    "Directional checks cover the normal workshop firing heading and screen-space preview/projectile; no new camera system.",
+    "Targeted UI/layout still-image rechecks are not a first-time human playthrough. Remaining P2 cargo toast/crew occlusion and archive-toast truncation are deferred; clues are available in Information.",
+    "The expanded chapter and 30–45-minute target are unchanged; first-time human duration remains unmeasured.",
+    "Android is development-signed; emulator checks are not physical-phone performance or LAN validation.",
+    "Public multiplayer depends on this Mac and the existing temporary tunnel."
+  ],
   "verification": {
-    "packed_physical_checks": {
+    "packed_direction": {
+      "checks": 9,
+      "failures": 0,
+      "method": "Actual floating touch input and physical key events move screen-space preview; actual fired teammate direction checked at normal workshop heading."
+    },
+    "packed_network_lifecycle": {
+      "checks": 49,
+      "failures": 0,
+      "method": "Validated owner RPCs, aim snapshot on another device, passenger lock and real launch."
+    },
+    "packed_world": {
       "checks": 133,
       "failures": 0,
-      "method": "Staged physical dependency and failure fixtures for 2/3/4 explorers; not a full traversal."
+      "method": "Staged 2/3/4 physical dependency and recovery fixtures."
     },
-    "packed_mixed_party": {
-      "checks": 18,
-      "failures": 0,
-      "method": "Full ordinary input/action RPC journey: two independent human-owned clients and two normal bots. Automated client drivers, not first-time human players."
-    }
-  },
-  "verification_limits": [
-    "30–45 minutes is a first-time human playtest target, not a measured result.",
-    "Known-solution all-bot execution completes in about 131 seconds; it does not measure human reasoning time or enjoyment.",
-    "Android is development-signed; emulator install/start is checked. Physical-phone performance, LAN broadcast and human touch accuracy remain unverified.",
-    "P2 world-label/overlay crowding remains in some later views; bounded consumer reviews do not certify the entire experience.",
-    "Public multiplayer uses a temporary tunnel while the host Mac stays online."
-  ]
+    "retained_unchanged_physics": {
+      "checks": 354,
+      "failures": 0
+    },
+    "retained_touch_gestures": {
+      "checks": 16,
+      "failures": 0
+    },
+    "consumer": "UI/layout targeted source-unseen static rechecks and phone gear-panel fit supplements; no material P0/P1 in bounded images."
+  }
 }
