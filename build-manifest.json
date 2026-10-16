@@ -1,6 +1,6 @@
 {
-  "version": "readable-workshop-2026-10-16",
-  "built_utc": "2026-10-16T10:52:28.903072+00:00",
+  "version": "stacking-trials-2026-10-16",
+  "built_utc": "2026-10-16T13:13:14.356880+00:00",
   "playable_puzzles": [
     {
       "id": 22,
@@ -9,125 +9,216 @@
         2,
         3,
         4
-      ]
+      ],
+      "kind": "chapter"
+    },
+    {
+      "id": 23,
+      "title": "Moving Tower",
+      "party_sizes": [
+        2,
+        3,
+        4
+      ],
+      "kind": "short trial"
+    },
+    {
+      "id": 24,
+      "title": "Counterweight Crew",
+      "party_sizes": [
+        2,
+        3,
+        4
+      ],
+      "kind": "short trial"
     }
   ],
-  "source_fingerprint": "b1ba378b8352de991cb3b62b797c661d251f12eb5a8ac6835a6b36c6757adb60",
+  "source_fingerprint": "66b46f5e0bc5467e421a1e9b4556b794042425e4e6bdfa7b6ef9116921a67dc5",
   "web": {
-    "readable-workshop.apple-touch-icon.png": {
+    "stacking-trials.apple-touch-icon.png": {
       "bytes": 9634,
       "sha256": "4575fd3ef07a1b225010ad5fb31bddba0ae9e4b8ce13edd50fb48004694dd3e8"
     },
-    "readable-workshop.audio.position.worklet.js": {
+    "stacking-trials.audio.position.worklet.js": {
       "bytes": 2973,
       "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
     },
-    "readable-workshop.audio.worklet.js": {
+    "stacking-trials.audio.worklet.js": {
       "bytes": 7298,
       "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
     },
     "index.html": {
-      "bytes": 6230,
-      "sha256": "687b41f15d8bfc3aa13725230ef039112fa11f5f89c1c02dbc42042ef7815cbd"
+      "bytes": 6216,
+      "sha256": "de1e5ddac729d74018494fd7453c4cf49d8b1d9b7a77fddfa92f8cf6813b2af0"
     },
-    "readable-workshop.icon.png": {
+    "stacking-trials.icon.png": {
       "bytes": 4213,
       "sha256": "9cc70383c43e0608b22e0dfc12f77bd9cbbd971ac7ceba13e70546f47c5a508f"
     },
-    "readable-workshop.js": {
-      "bytes": 315645,
-      "sha256": "ffc3898b59fba6f5af0c02f76e5ee526cc061e65c7d2d6f4f98186876cea15c4"
+    "stacking-trials.js": {
+      "bytes": 279815,
+      "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
     },
-    "readable-workshop.pck": {
-      "bytes": 425436,
-      "sha256": "32cb4071773cf69e60446fddcf3a089cfc78c0147e4fccb1e41719b511716e5c"
+    "stacking-trials.pck": {
+      "bytes": 446576,
+      "sha256": "23bce8fbde470e1786cf56e9db30e3a99f9a78b36c6ee574ecdbef99d04d8320"
     },
-    "readable-workshop.png": {
+    "stacking-trials.png": {
       "bytes": 21443,
       "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
     },
-    "readable-workshop.wasm": {
-      "bytes": 37902138,
-      "sha256": "11ea19645368f8e73cf337b59cfd7ceeb4ebb51f7a3bbf77d1a5c3ddfedbc522"
+    "stacking-trials.wasm": {
+      "bytes": 39514754,
+      "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
     }
   },
   "gateway_pack": {
-    "sha256": "32cb4071773cf69e60446fddcf3a089cfc78c0147e4fccb1e41719b511716e5c"
+    "bytes": 446576,
+    "sha256": "23bce8fbde470e1786cf56e9db30e3a99f9a78b36c6ee574ecdbef99d04d8320"
   },
   "apk": {
+    "bytes": 28797440,
+    "sha256": "3ec195bcaa0dd3af98c88fcc7be67cce50391cd22cf8f0c2c86dc70af455d341",
     "filename": "co-op-explorers.apk",
-    "bytes": 28776507,
-    "sha256": "181268a04effaf0d0d5c49e2862206bd3f21a2fd10722dfc511525e4778067c6",
-    "version_code": 26101605,
-    "version_name": "0.3.1-readable-workshop",
-    "download": "https://github.com/DDreamer94/co-op-explorers/releases/download/readable-workshop-2026-10-16/co-op-explorers.apk"
+    "version_code": 26101606,
+    "version_name": "0.4.0-stacking-trials",
+    "download": "https://github.com/DDreamer94/co-op-explorers/releases/download/stacking-trials-2026-10-16/co-op-explorers.apk"
   },
   "changes": [
-    "Persistent plain-language task/instruction and one active numbered target pattern.",
-    "Physical symbol handwheels, consistent glyphs, links, chart, core socket and two-picture lever with selected-state ring.",
-    "Camera-local slight rim glow on relevant quest objects under the crosshair, within8m and line of sight; clears on looking away/reading/menu.",
-    "First person, hidden floating names, keyboard captions, mobile controls and cooperative puzzle rules retained."
+    "Two selectable short stacking trials: moving full-crew tower and split-support/block substitution.",
+    "Clear gold material highlight and glowing outline; repeated look-away/back no longer loses highlight meshes.",
+    "Connected tower bodies/equipment hidden only from own first-person view, including remotely owned towers; compact count/role/detach status.",
+    "Bots use human default walk pace; carrying tower retains walk/run speed.",
+    "Trial room names and switch/reset destination labels reflect actual selection."
   ],
   "verification": {
-    "delivery_pack_readability": {
-      "checks": 18,
+    "world-final-packed.log": {
+      "checks": 127,
       "failures": 0,
-      "log": "readability-delivery.log"
+      "sha256": "c4c578c5433765f6c70913c69c9a1312d53bc9b7f93570c97c107e0b651a1b9e",
+      "scope": "final exported pack"
     },
-    "delivery_pack_focus": {
-      "checks": 8,
+    "ai-final-packed.log": {
+      "checks": 84,
       "failures": 0,
-      "log": "focus-delivery.log"
+      "sha256": "7d9eb73d5dcd48b8cbec25036071ead005fe474986d735e049360649736161f2",
+      "scope": "final exported pack"
     },
-    "delivery_pack_physical_puzzle": {
-      "checks": 133,
-      "failures": 0,
-      "log": "world-delivery.log"
-    },
-    "delivery_pack_mouse": {
-      "checks": 17,
-      "failures": 0,
-      "log": "mouse-delivery.log"
-    },
-    "delivery_pack_owned_network_look_launch": {
-      "checks": 12,
-      "failures": 0,
-      "log": "view-network-delivery.log"
-    },
-    "public_tls_lobby_ownership_look": {
+    "catalogue-final-packed.log": {
       "checks": 13,
       "failures": 0,
-      "log": "public-gateway.log"
+      "sha256": "0d85dec008ee3c51158dc101352358c1a7bbac1da1c79872e74a5e241a3ed724",
+      "scope": "final exported pack"
     },
-    "touch_source": {
-      "checks": 11,
+    "trial-network-final-packed.log": {
+      "checks": 12,
       "failures": 0,
-      "log": "touch.log"
+      "sha256": "e015307ec7f115fb2fa1133f4cb610f8f58f2ab9e5b2ac3114e9ee32f7251462",
+      "scope": "final exported pack"
     },
-    "mixed_party_complete_chapter_source_before_final_visual_polish": {
+    "view-speed-delivery.log": {
+      "checks": 86,
+      "failures": 0,
+      "sha256": "0f417123d0589e7b89af40afe40a307e413b33ab861abde784e287114f61a1f8",
+      "scope": "earlier candidate export or source; affected behavior unchanged by final menu naming and trial T explanation correction"
+    },
+    "focus-delivery.log": {
+      "checks": 10,
+      "failures": 0,
+      "sha256": "e48a33df02d9ef4c9dad4e8d84e196838bfcb8cca8fce72ad5cd8190915c798a",
+      "scope": "earlier candidate export or source; affected behavior unchanged by final menu naming and trial T explanation correction"
+    },
+    "outline-delivery.log": {
+      "checks": 3,
+      "failures": 0,
+      "sha256": "1d04888df2f2b15074972e9759c0cc37758cc2dd15b7b443789b535f35456147",
+      "scope": "earlier candidate export or source; affected behavior unchanged by final menu naming and trial T explanation correction"
+    },
+    "status-delivery.log": {
+      "checks": 8,
+      "failures": 0,
+      "sha256": "d5606626c9391a777d4149a73fcdde2e59578dbec5b1a332b7230de398e3fce0",
+      "scope": "earlier candidate export or source; affected behavior unchanged by final menu naming and trial T explanation correction"
+    },
+    "workshop-delivery.log": {
+      "checks": 133,
+      "failures": 0,
+      "sha256": "48fb1882620c83419d4769dd2be128a92b6c68179728a8b514d6310acff2258e",
+      "scope": "earlier candidate export or source; affected behavior unchanged by final menu naming and trial T explanation correction"
+    },
+    "workshop-network.log": {
       "checks": 18,
       "failures": 0,
-      "log": "chapter-network.log"
+      "sha256": "9a3830bb13bbb3fed053169bb87c7e6c0781c47cf10563305d5e97dcd564b69e",
+      "scope": "earlier candidate export or source; affected behavior unchanged by final menu naming and trial T explanation correction"
     },
-    "normal_bots_and_idle_role_ablations_source_before_final_visual_polish": {
+    "lifecycle-regression.log": {
+      "checks": 49,
       "failures": 0,
-      "log": "ai.log"
+      "sha256": "aadecb8ad3a88120e8433a2273b1a74794ea6a574e42077ac8d9c7c1be7daf54",
+      "scope": "earlier candidate export or source; affected behavior unchanged by final menu naming and trial T explanation correction"
     },
-    "rendered_matrix": [
-      "recheck-desktop-final",
-      "recheck-phone-v3",
-      "recheck-tablet"
-    ],
-    "reviews": "reviews/reconciliation.json",
-    "android": "Installed APK matches export; signature/alignment checked; actual native chapter start inspected. Development-signed ARM64.",
-    "browser": "Actual private exported Web menu/start inspected; ordinary foreground pointer-lock stability remains a retained limit."
+    "mouse-native.log": {
+      "checks": 17,
+      "failures": 0,
+      "sha256": "1f9648274ed5ca4175e93c19cc510bc764aa6df8af11325b7a7ee9d93e3d95ee",
+      "scope": "earlier candidate export or source; affected behavior unchanged by final menu naming and trial T explanation correction"
+    },
+    "touch-native.log": {
+      "checks": 11,
+      "failures": 0,
+      "sha256": "f639f835e56751cff62c3158ff9f213101d61d88fbf561ca13d7bf072180237d",
+      "scope": "earlier candidate export or source; affected behavior unchanged by final menu naming and trial T explanation correction"
+    },
+    "snapshot-final.log": {
+      "checks": 5,
+      "failures": 0,
+      "sha256": "20f1b1f12b46b4d840a70cdf1a1e7cae42bfeb83142f3f5635e524b84c0610a0",
+      "scope": "earlier candidate export or source; affected behavior unchanged by final menu naming and trial T explanation correction"
+    },
+    "readability-regression.log": {
+      "checks": 18,
+      "failures": 0,
+      "sha256": "1436c1e91087f040558cc0ea3bb1a99f84d3c92ecd2cadbfa94f61060c832707",
+      "scope": "earlier candidate export or source; affected behavior unchanged by final menu naming and trial T explanation correction"
+    },
+    "gateway-regression.log": {
+      "checks": 32,
+      "failures": 0,
+      "sha256": "88b397efc26b2990aebf0258ec829dcfb7a8999af72b361840532bbb8589cfe9",
+      "scope": "earlier candidate export or source; affected behavior unchanged by final menu naming and trial T explanation correction"
+    },
+    "public-workshop.log": {
+      "checks": 13,
+      "failures": 0,
+      "scope": "final exported clients through deployed public TLS gateway",
+      "sha256": "9760085ba0f22c0962b24b3b52f924c1c1a3e6550b031c7a433d8ff32863d523"
+    },
+    "public-tower-open-ground.log": {
+      "checks": 13,
+      "failures": 0,
+      "scope": "final exported clients through deployed public TLS gateway",
+      "sha256": "5568236774d1fc090eda448ad51f1dc1a444cb7761fecff6e9ce5ce99ec60162"
+    },
+    "public-counterweight-open-ground.log": {
+      "checks": 13,
+      "failures": 0,
+      "scope": "final exported clients through deployed public TLS gateway",
+      "sha256": "2169dfd125d5ab79926e1c729e5d81fe496b5360c0e42411967897257d79a83e"
+    }
   },
+  "consumer_review": "Four fresh visible-evidence first passes with disclosed general policy; material static findings corrected and three targeted rechecks inspect57 images. UX19 bounded interaction units tested; no full journey certification.",
   "verification_limits": [
-    "UX independent interaction review EVIDENCE_INCOMPLETE: native app selection/Accessibility tools blocked before input. Zero reproduced independent interactions.",
-    "Controller input/material/network tests supplement this gap; no global UX or first-time human difficulty approval.",
-    "Static/staged captures are not full human playthroughs; isolated traversal is movement-input evidence only.",
-    "Physical-phone input/performance and hardware LAN remain unverified.",
-    "No first-time human completion time or30\u201345-minute duration claim.",
-    "Public multiplayer still depends on this Mac and its temporary tunnel."
-  ]
+    "Automated known-solution physics/bots/network drivers do not establish human enjoyment, first-time comprehension or30\u201345-minute Workshop duration.",
+    "Static/staged views are not a human playthrough. Active Engaged state not independently exercised.",
+    "P2 phone map/selector detail and peripheral HUD/camera-angle occlusion remain for subsequent human testing.",
+    "Browser automation has pointer-lock/held-input limitations; normal foreground capture stability and full manual traversal unverified. World-drag fallback remains.",
+    "Native Android emulator evidence does not establish physical-phone input/performance or hardware LAN. Development-signed ARM64.",
+    "Public multiplayer depends on this Mac and a temporary tunnel."
+  ],
+  "android_verification": {
+    "installed_sha256": "3ec195bcaa0dd3af98c88fcc7be67cce50391cd22cf8f0c2c86dc70af455d341",
+    "evidence": "android-install-final.log; android-menu-final.png, android-selector.png, android-tower-selected.png, android-tower-idle.png, android-tower-look.png",
+    "scope": "Actual emulator selects/starts Moving Tower with3AI; right-world swipe changes view. Not complete tower mechanism or human phone playthrough. Initial start capture had transient extended left backdrop; later idle/look compact panel inspected."
+  }
 }
