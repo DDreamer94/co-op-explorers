@@ -111,8 +111,8 @@ body {
 	#landscape-prompt { display: flex; }
 }
 		</style>
-		<link id="-gd-engine-icon" rel="icon" type="image/png" href="stacking-trials.icon.png" />
-<link rel="apple-touch-icon" href="stacking-trials.apple-touch-icon.png"/>
+		<link id="-gd-engine-icon" rel="icon" type="image/png" href="chinese-language.icon.png" />
+<link rel="apple-touch-icon" href="chinese-language.apple-touch-icon.png"/>
 
 	</head>
 	<body>
@@ -120,6 +120,7 @@ body {
 			<strong>Turn your phone sideways</strong>
 			<span>Co-op Explorers uses landscape controls.</span>
 			<span>Left thumb moves. Right thumb looks. Pinch open space to zoom.</span>
+			<button id="shell-language" type="button" style="font:inherit;padding:10px 20px;cursor:pointer">中文</button>
 		</div>
 		<canvas id="canvas">
 			Your browser does not support the canvas tag.
@@ -130,14 +131,30 @@ body {
 		</noscript>
 
 		<div id="status">
-			<img id="status-splash" class="show-image--true fullsize--true use-filter--true" src="stacking-trials.png" alt="">
+			<img id="status-splash" class="show-image--true fullsize--true use-filter--true" src="chinese-language.png" alt="">
 			<progress id="status-progress"></progress>
 			<div id="status-notice"></div>
 		</div>
 
-		<script src="stacking-trials.js"></script>
+		<script src="chinese-language.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"stacking-trials","experimentalVK":false,"fileSizes":{"stacking-trials.pck":446576,"stacking-trials.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+// This pre-game prompt remains usable before the Godot canvas is visible.
+window.coopSetLanguage = function(language) {
+ const zh=language==='zh_CN';
+ document.documentElement.lang=zh?'zh-CN':'en';
+ const prompt=document.getElementById('landscape-prompt');
+ prompt.querySelector('strong').textContent=zh?'请将手机横过来':'Turn your phone sideways';
+ const lines=prompt.querySelectorAll('span');
+ lines[0].textContent=zh?'协作探险队使用横屏操作。':'Co-op Explorers uses landscape controls.';
+ lines[1].textContent=zh?'左手移动，右手转向，在空白处双指缩放。':'Left thumb moves. Right thumb looks. Pinch open space to zoom.';
+ document.getElementById('shell-language').textContent=zh?'English':'中文';
+};
+window.coopSetLanguage(localStorage.getItem('coop-language')||'en');
+document.getElementById('shell-language').onclick=function(){
+ const value=document.documentElement.lang==='zh-CN'?'en':'zh_CN';
+ localStorage.setItem('coop-language',value);window.coopSetLanguage(value);
+};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"chinese-language","experimentalVK":false,"fileSizes":{"chinese-language.pck":14929800,"chinese-language.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
